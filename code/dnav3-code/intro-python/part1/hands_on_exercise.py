@@ -11,8 +11,11 @@ print "pi is a with a value of",pi
 
 # TODO: Write a conditional to print out if `i` is less than or greater than 50
 i = random.randint(0, 100)
+i = 50
 if i > 50:
  print "i is greater than 50"
+elif i == 50:
+ print "i is 50"
 else:
  print "i is less than 50"
 
